@@ -1,0 +1,61 @@
+/* src/components/styles/BullsAndCows.css */
+.bulls-and-cows {
+    padding: 40px;
+    text-align: center;
+    background-color: #222;
+    color: #fff;
+  }
+  
+  .reveal-button {
+    background-color: #ff5c5c;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    cursor: pointer;
+  }
+  
+  .reveal-button:hover {
+    background-color: #e04b4b;
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    background-color: #00d084;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #00965e;
+  }
+  
+  .attempts-list {
+    margin-top: 20px;
+    text-align: left;
+  }
+  
+  .attempts-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .attempts-list li {
+    background-color: #333;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  
