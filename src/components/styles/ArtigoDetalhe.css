@@ -1,0 +1,40 @@
+.container {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .titulo-artigo {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .autor {
+    font-size: 1rem;
+    text-align: center;
+    color: #555;
+  }
+  
+  .conteudo {
+    font-size: 1.1rem;
+    margin-top: 15px;
+    line-height: 1.6;
+  }
+  .botao-voltar {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.3s;
+  }
+  
+  .botao-voltar:hover {
+    background-color: #0056b3;
+  }
+    

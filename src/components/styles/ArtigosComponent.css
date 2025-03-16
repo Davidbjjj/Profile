@@ -1,0 +1,62 @@
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .titulo {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .artigos-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .card {
+    background: #fff;
+    padding: 15px;
+    width: 280px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .titulo-artigo {
+    font-size: 1.4rem;
+    color: #333;
+  }
+  
+  .autor {
+    font-size: 0.9rem;
+    color: #666;
+  }
+  
+  .conteudo {
+    font-size: 0.95rem;
+    color: #444;
+    margin-top: 10px;
+  }
+  
+  .botao-vermais {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 12px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .botao-vermais:hover {
+    background-color: #0056b3;
+  }
+  
