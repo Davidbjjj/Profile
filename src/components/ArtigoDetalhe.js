@@ -8,7 +8,7 @@ const ArtigoDetalhe = () => {
   const [artigo, setArtigo] = useState(null);
 
   useEffect(() => {
-    fetch("http://localhost:8080/artigos/listar")
+    fetch("https://projetofaculdade-txtp.onrender.com/artigos/listar")
       .then((response) => response.json())
       .then((data) => setArtigo(data[id])) // Pegamos o artigo pelo índice
       .catch((error) => console.error("Erro ao buscar artigo:", error));
