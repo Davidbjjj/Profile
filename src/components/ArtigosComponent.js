@@ -6,7 +6,7 @@ const ArtigosComponent = () => {
   const [artigos, setArtigos] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:8080/artigos/listar")
+    fetch("https://projetofaculdade-txtp.onrender.com/artigos/listar")
       .then((response) => response.json())
       .then((data) => setArtigos(data))
       .catch((error) => console.error("Erro ao buscar artigos:", error));
